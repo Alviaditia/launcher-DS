@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "minSdkVersion": 21,
+        "targetSdkVersion": 31,
+        "debuggable": false,
+        "removePermissions": "WRITE_EXTERNAL_STORAGE, ACCESS_WIFI_STATE",
+        "homeScreen": true,
+        "pathPattern": ".*\\.jpg,.*\\.txt",
+        "intentFilters": [
+            {
+                "action": "android.intent.action.MAIN",
+                "category": [
+                    "android.intent.category.LAUNCHER",
+                    "android.intent.category.DEFAULT",
+                    "android.intent.category.HOME"
+                ]
+            }
+        ]
+    }
+}
